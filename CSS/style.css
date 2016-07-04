@@ -1,0 +1,161 @@
+body{
+	font-family: 'Cuprum', sans-serif;
+	font-size: 18px;
+}
+
+#nav{
+	margin-bottom: 0;
+}
+
+#titulo{
+	color:#e6b800;
+	font-size: 38px;
+	text-decoration: none;
+}
+
+#simbolo{
+	width: 45px;
+}
+
+#nav ul{
+	margin-right: 30px;
+}
+
+#control {
+    background: none;
+}
+
+.carousel-inner{
+	text-align: center;
+	background: #333;
+	border-bottom:2px #e6b800 solid;
+	padding-bottom: 0;
+}
+
+#videocaru{
+	padding-bottom: 15px;
+}
+
+#imgcaru{
+	padding-bottom: 25px;
+}
+
+.carousel img{
+	width: 94%;
+	position: center fixed;
+	margin-left: auto;
+	margin-right: auto;
+	border:4px #e6b800 solid;
+	border-radius: 10px;
+}
+
+.carousel video {	
+	width: 89%;
+	border:4px #e6b800 solid;
+	border-radius: 10px;
+}
+
+#box{
+	text-align: center;
+	background: #e6b800;
+	border-color: black;
+	margin-top: 30px;
+}
+
+#box img{
+	height: 350px;
+}
+
+.thumbnail button{
+	color:#e6b800;
+	border: none;
+	font-size: 20px;
+	margin:10px 15px 5px;
+	padding: 10px 30px;
+	background: black;
+	webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.thumbnail button:hover{
+	background:#d9d9d9;
+	color:black;	
+}
+
+#encabezado{
+	color: white;
+	background: black;
+	font-size: 35px;
+	padding: 35px 0;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.productos{
+	background:#333;
+}
+
+.productos img{
+	border: 4px black solid;
+}
+
+.social{
+	color: white;
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	text-align: center;	
+	height: 700px;
+}
+
+.social h1{
+	margin: 65px 0;
+}
+
+.social a{
+	background-color:rgba(230, 184, 0, 0.9);
+	color: black;
+	padding: 5% 6% ;
+	font-size: 38px;
+	border-radius: 50%;
+	font-weight: bold;
+	margin: 0 8px;
+	webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.social a:hover {
+	background-color:#d9d9d9;
+}
+
+#simbsoci{
+	margin-top:30px;
+	margin-bottom:60px;
+}
+
+.social video{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;	
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);	
+}
+
+@media(min-width:1200px){
+	#prodc{
+		width: 1600px;
+	}	
+
+	#videocaru{
+		padding-bottom: 25px;
+	}
+
+	#imgcaru{
+		padding-bottom:40px; 
+	}
+}
