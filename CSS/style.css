@@ -17,10 +17,6 @@ body{
 	width: 45px;
 }
 
-#nav ul{
-	margin-right: 30px;
-}
-
 #control {
     background: none;
 }
@@ -102,36 +98,51 @@ body{
 }
 
 .social{
+	margin top: auto;
+	margin-bottom: auto;
 	color: white;
-	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 	text-align: center;	
-	height: 700px;
+	height: 650px;
+	background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
 }
 
-.social h1{
-	margin: 65px 0;
+
+#socicon{
+	margin-top: 200px;
+	margin-bottom: 70px;
 }
 
-.social a{
-	background-color:rgba(230, 184, 0, 0.9);
-	color: black;
-	padding: 5% 6% ;
-	font-size: 38px;
-	border-radius: 50%;
-	font-weight: bold;
-	margin: 0 8px;
+.social #insta{
+	border: 1.5px black solid;
+	margin-left: 30px;
+	padding:7px 12px;
+	border-radius: 10px;
+	font-size: 50px;
+	color: white;
+	background: linear-radial-gradient(32% 106%, circle cover, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), -webkit-linear-gradient(-45deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+	background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    transition: all 1s;
+}
+
+.social #face{
+	border: 1.5px black solid;
+	background-color:#3b5998;
+	color: white;
+	border-radius: 10px;
+	padding:7px 19px;
+	font-size: 50px;
 	webkit-transition: all .5s;
     -moz-transition: all .5s;
     transition: all .5s;
 }
 
-.social a:hover {
-	background-color:#d9d9d9;
+.social #insta:hover, #face:hover {
+	background:#e6b800;
+	color: black;
 }
 
-#simbsoci{
-	margin-top:30px;
-	margin-bottom:60px;
+.social #num{
+	font-size: 27px;	
 }
 
 .social video{
@@ -144,6 +155,7 @@ body{
 	height: auto;
 	z-index: -100;
 	transform: translateX(-50%) translateY(-50%);	
+	opacity: 0.8px;
 }
 
 @media(min-width:1200px){
